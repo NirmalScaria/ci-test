@@ -10,10 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - run: ls
       - run: zip legit.zip *
       - run: ls
       - uses: actions/upload-artifact@v3
         with:
-          name: zipp.zip
+          name: legit
           path: legit.zip
