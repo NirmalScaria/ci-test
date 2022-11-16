@@ -11,6 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: ls
-      - run: mkdir legitgraph
-      - run: mv * legitgraph 2>/dev/null
+      - run: cd ../
       - run: ls
