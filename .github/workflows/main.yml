@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: move files
-        run: mv * main
-      - name: dkf
-        run: ls
+      - run: ls
+      - run: mkdir legitgraph
+      - run: mv * legitgraph
+      - run: ls
