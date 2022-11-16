@@ -11,6 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: move files
-        run: mv !(main) main
+        run: mv * main
       - name: dkf
         run: ls
