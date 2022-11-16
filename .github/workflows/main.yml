@@ -10,5 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: make_zip
+      - name: move files
+        run: mv !(main) main
+      - name: dkf
         run: ls
