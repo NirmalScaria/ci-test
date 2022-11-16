@@ -10,6 +10,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: montudor/action-zip@v1
-        with:
-          args: zip -qq -r main.zip /
+      - name: make_zip
+        run: zip -r main.zip /
