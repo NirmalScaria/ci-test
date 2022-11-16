@@ -11,5 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: ls
-      - run: cd ../
+      - run: zip legit.zip *
       - run: ls
