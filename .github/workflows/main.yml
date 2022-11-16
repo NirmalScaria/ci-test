@@ -9,6 +9,6 @@ jobs:
   make-zip:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3
       - name: make_zip
-        run: zip -r main.zip /
+        run: ls
