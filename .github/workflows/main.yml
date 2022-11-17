@@ -16,9 +16,6 @@ jobs:
         with:
           name: legit
           path: legit.zip
-      - uses: actions/setup-node@v1
-        with:
-          node-version: 12
       - name: Upload and Release
         uses: mnao305/chrome-extension-upload@3.0.0
         with:
