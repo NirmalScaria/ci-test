@@ -19,7 +19,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-      - name: Upload & Release
+      - name: Upload and Release
         uses: mnao305/chrome-extension-upload@3.0.0
         with:
           file-path: legit.zip
